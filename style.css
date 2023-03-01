@@ -38,6 +38,7 @@ body * {
 }
 #container {
   width: 360px;
+  max-width: 588px;
   /* border: 1px solid red; */
   margin: auto;
   margin-top: 56px;
