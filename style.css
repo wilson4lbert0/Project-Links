@@ -80,8 +80,9 @@ body * {
   transform: translateY(-50%);
 }
 .light #switch button {
-  right: 0;
-  left: initial;
+  /* right: 0;
+  left: initial; */
+  animation: slideIn 0.4s;
 }
 #switch span {
   display: block;
@@ -154,5 +155,16 @@ footer {
   }
   .light {
     --bg-url: url("./assets/bg-light.png");
+  }
+}
+
+/* Animations */
+
+@keyframes sladeIn {
+  from{
+    left: 0;
+  }
+  to{
+    left: 50%;
   }
 }
